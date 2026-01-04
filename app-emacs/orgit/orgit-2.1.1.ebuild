@@ -19,8 +19,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 DEPEND="app-emacs/compat
+	app-emacs/cond-let
 	app-emacs/magit
 	app-emacs/org-mode"
 RDEPEND="app-emacs/compat
+	app-emacs/cond-let
 	app-emacs/magit
 	app-emacs/org-mode"
