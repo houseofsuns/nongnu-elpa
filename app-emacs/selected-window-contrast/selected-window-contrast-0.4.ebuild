@@ -5,14 +5,14 @@ EAPI=8
 
 REPO_URI="https://elpa.nongnu.org/nongnu/"
 SOURCE_TYPE="tar"
-REALNAME="zenburn-theme"
+REALNAME="selected-window-contrast"
 DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="A low contrast color theme for Emacs."
+DESCRIPTION="Highlight window and cursor at switching"
 
-HOMEPAGE="http://github.com/bbatsov/zenburn-emacs"
+HOMEPAGE="https://codeberg.org/Anoncheg/selected-window-contrast"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"
