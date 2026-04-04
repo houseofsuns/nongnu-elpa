@@ -10,7 +10,7 @@ DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="A minimal Jabber client"
+DESCRIPTION="XMPP/Jabber client"
 
 HOMEPAGE="https://git.thanosapollo.org/emacs-jabber"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
