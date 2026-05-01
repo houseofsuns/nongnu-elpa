@@ -18,5 +18,7 @@ SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND="app-emacs/fsm"
-RDEPEND="app-emacs/fsm"
+DEPEND="app-emacs/fsm
+	app-emacs/keymap-popup"
+RDEPEND="app-emacs/fsm
+	app-emacs/keymap-popup"
