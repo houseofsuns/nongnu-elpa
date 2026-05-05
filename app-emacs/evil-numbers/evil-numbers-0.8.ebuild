@@ -18,5 +18,7 @@ SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND="app-emacs/evil"
-RDEPEND="app-emacs/evil"
+DEPEND="app-emacs/evil
+	app-emacs/shift-number"
+RDEPEND="app-emacs/evil
+	app-emacs/shift-number"
