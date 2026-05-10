@@ -12,7 +12,7 @@ inherit g-sorcery gs-elpa
 
 DESCRIPTION="XMPP/Jabber client"
 
-HOMEPAGE="https://git.thanosapollo.org/emacs-jabber"
+HOMEPAGE="https://codeberg.org/emacs-jabber/emacs-jabber"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"
