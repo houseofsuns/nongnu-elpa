@@ -12,7 +12,7 @@ inherit g-sorcery gs-elpa
 
 DESCRIPTION="A looping macro"
 
-HOMEPAGE="https://github.com/okamsn/loopy"
+HOMEPAGE="https://codeberg.org/okamsn/loopy"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"
