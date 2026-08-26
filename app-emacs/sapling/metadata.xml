@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Magit-like interface for Sapling</longdescription>
+	<longdescription>Fast interface for Sapling</longdescription>
 </pkgmetadata>

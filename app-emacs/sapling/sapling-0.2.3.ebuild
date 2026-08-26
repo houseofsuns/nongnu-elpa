@@ -10,7 +10,7 @@ DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Magit-like interface for Sapling"
+DESCRIPTION="Fast interface for Sapling"
 
 HOMEPAGE="https://github.com/swithinchan/sapling/"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
