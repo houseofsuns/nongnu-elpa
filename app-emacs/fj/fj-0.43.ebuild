@@ -18,11 +18,13 @@ SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND="app-emacs/fedi
+DEPEND="app-emacs/compat
+	app-emacs/fedi
 	app-emacs/tp
 	app-emacs/transient
 	app-emacs/magit"
-RDEPEND="app-emacs/fedi
+RDEPEND="app-emacs/compat
+	app-emacs/fedi
 	app-emacs/tp
 	app-emacs/transient
 	app-emacs/magit"
