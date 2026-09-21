@@ -10,7 +10,7 @@ DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Project backend for Nix-like store"
+DESCRIPTION="Project backend for Nix store"
 
 HOMEPAGE="https://github.com/jian-lin/project-nix-store"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
