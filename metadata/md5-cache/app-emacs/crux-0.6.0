@@ -1,13 +1,12 @@
 BDEPEND=>=app-editors/emacs-26.3:*
 DEFINED_PHASES=compile configure info install postinst postrm prepare setup test unpack
-DEPEND=app-emacs/fsm app-emacs/keymap-popup
-DESCRIPTION=XMPP/Jabber client
+DESCRIPTION=A Collection of Ridiculously Useful eXtensions
 EAPI=8
-HOMEPAGE=https://git.thanosapollo.org/emacs-jabber/about/
+HOMEPAGE=https://github.com/bbatsov/crux
 INHERIT=g-sorcery gs-elpa
 KEYWORDS=~amd64 ~x86
-RDEPEND=app-emacs/fsm app-emacs/keymap-popup >=app-editors/emacs-26.3:*
+RDEPEND=>=app-editors/emacs-26.3:*
 SLOT=0
-SRC_URI=https://elpa.nongnu.org/nongnu/jabber-0.14.0.tar
+SRC_URI=https://elpa.nongnu.org/nongnu/crux-0.6.0.tar
 _eclasses_=g-sorcery	692c9ad583c66d03e7c0e8b3b106a435	elisp-common	0ea9a0d3bc26353e1642c73560a24fdf	elisp	a37bfc35b86403c770beebbd71661c30	gs-elpa	df4b672ca6bb8e009e294018c3bee8bf
-_md5_=51f2bc2514d9e52cb69a40f4764250af
+_md5_=02d834340c7db9fabe0445c3e78ff4d7
